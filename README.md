@@ -1,5 +1,1 @@
-To compile it you need Boost, Bullet Physics Library, SDL, and OpenGL.
-
-If you have g++ and pkg-config the following should compile the code.
-
-g++ Main.cpp Math.cpp Robot.cpp World.cpp -I. `pkg-config --cflags --libs bullet sdl gl`
+This program is an example of a simulated robot in a 2D space using Monte Carlo Localization to determine it's position on a map.  It reads distances from a radial laser range finder and determines the odds of it being at a point given these readings.
